@@ -6,9 +6,7 @@ variable "vsphere_admin_password" {
   type        = string
 }
 
-variable "vsphere_server" {  
-  type        = string
-}
+variable "vsphere_server" {}
 
 variable "virtual_machine_dns_servers" {
   type    = list(string)
