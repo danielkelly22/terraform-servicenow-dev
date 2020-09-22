@@ -13,8 +13,7 @@ variable "virtual_machine_dns_servers" {
   default = ["10.10.10.13", "10.10.10.9"]
 }
 variable "vsphere_compute_cluster" {
-  description = "Computer Cluster or Host for the VM(s) being built"
-  default = "AFSI-CLE"
+  description = "Computer Cluster or Host for the VM(s) being built"  
   }
 
 variable "vsphere_network" {
