@@ -83,7 +83,7 @@ resource "vsphere_virtual_machine" "vm_01" {
             ]
         }
         network_interface {
-            ipv4_address = "10.10.214.${22 + count.index}"
+            ipv4_address = "10.10.214.${200 + count.index}"
             ipv4_netmask = "24"
             dns_server_list = var.virtual_machine_dns_servers             
         }
