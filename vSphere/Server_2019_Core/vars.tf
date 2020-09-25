@@ -7,7 +7,7 @@ variable "vsphere_admin_password" {
 }
 
 variable "vsphere_server" {}
-
+variable "windows_password" {}
 variable "virtual_machine_dns_servers" {
   type    = list(string)
   default = ["10.10.10.13", "10.10.10.9"]
